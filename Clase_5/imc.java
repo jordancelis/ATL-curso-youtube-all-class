@@ -45,6 +45,28 @@ public class imc {
         }
 
          */
+
+        //vamos a calcular la edad de un perro en años perro solo de
+        // miltplica * 7
+
+         System.out.println("Porfavor ingrese la edad de su perro!");
+         Scanner annos = new Scanner(System.in);
+
+         int edad = annos.nextInt();
+
+         int edad_annos_perros = edad * 7 ;
+
+         System.out.println("La edad real de su perro es : " + edad_annos_perros + " años");
+
+         //Conversor de millas a kilometros
+
+        System.out.println("por favor ingrese el valor en millas");
+        Scanner entrada = new Scanner(System.in);
+        double millas = entrada.nextDouble();
+
+        double conversor = millas * 1.60934;
+
+        System.out.println("El valor en millas transformado a kilometros es : " + conversor );
     }
     }
 
